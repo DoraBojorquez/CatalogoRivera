@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.rbda"
+    version   = "1.0.0">
+
+<name>Catalogo Rivera</name>
+
+<description>
+Catalogo en PhoneGap.
+</description>
+
+<author href="" email="dora_15_03@hotmail.com">
+Alicia Rivera
+</author>
+
+ <icon src="logo.png" gap:platform="android" gap:density="hdpi" />
+
+
+</widget>

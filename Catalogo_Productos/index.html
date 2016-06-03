@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Catalogo Productos</title>
+
+
+
+
+
+
+<link rel="stylesheet" href="themes/tema.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="inicio">
+<div data-role="header">
+    <h1>Productos</h1>
+   <div data-role="controlgroup" data-type="horizontal" align="center"><a href="#agregarproductos" data-role="button" data-icon="custom">Agregar Productos</a><a href="#acercademi" data-role="button" data-icon="info">Acerca de mi</a></div>
+  </div>
+  
+  <div data-role="content">
+    <div data-role="collapsible-set">
+    
+      <div data-role="collapsible">
+        <h3>Blusas</h3>
+        <ul data-role="listview">
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Filtrar">
+        <li><a href="#informacionproducto1">Blusa sin manga</a><a href="#edicionproducto"></a></li>
+        <li><a href="#informacionproducto2">Blusa con manga</a><a href="#edicionproducto">Predet.</a></li>
+        <li><a href="#informacionproducto3">Blusa con tirantes</a><a href="#edicionproducto">Predet.</a></li>
+      </ul>
+      </div>
+      
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Vestidos</h3>
+        <ul data-role="listview">
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Filtrar">
+        <li><a href="#informacionproducto4">Vestido de noche</a><a href="#edicionproducto"></a></li>
+        <li><a href="#informacionproducto5">Vestido corto</a><a href="#edicionproducto">Predet.</a></li>
+        <li><a href="#informacionproducto6">Vestido largo</a><a href="#edicionproducto">Predet.</a></li>
+      </ul>
+      </div>
+      
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Bolsas</h3>
+        <ul data-role="listview">
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Filtrar">
+        <li><a href="#informacionproducto7">Bolsa de mano</a><a href="#edicionproducto"></a></li>
+        <li><a href="#informacionproducto8">Bolsa de hombro</a><a href="#edicionproducto">Predet.</a></li>
+        <li><a href="#informacionproducto9">Bolsa cruzada</a><a href="#edicionproducto">Predet.</a></li>
+      </ul>
+      </div>
+      
+    </div>
+    
+<br>    
+    
+  </div>
+  
+<div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">info</a></li>
+ <li><a href="#agregarproductos" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+  
+</div>
+<div data-role="page" id="agregarproductos">
+  <div data-role="header">
+    <h1>Registro de Productos</h1>
+  </div>
+  <div data-role="content">
+    
+    <div data-role="fieldcontain">
+      <label for="textinput">id:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+  
+      <div data-role="fieldcontain">
+      <label for="textinput">Nombre del Producto:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+  
+      <div data-role="fieldcontain">
+      <label for="textinput">Descripción:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    
+        <div data-role="fieldcontain">
+      <label for="textinput">Precio:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    
+        <div data-role="fieldcontain">
+      <label for="textinput">Existencia:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+  
+      <div data-role="fieldcontain">
+      <label for="textinput">Categorias:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+  
+      <div data-role="fieldcontain">
+      <label for="textinput">Fecha de Registro:</label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    
+      <div data-role="controlgroup" data-type="horizontal" align="center"><a href="#" data-role="button">Guardar</a><a href="#inicio" data-role="button">Cancelar</a></div>
+  
+  
+  
+  
+  </div>
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#acercademi" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="informacionproducto1">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="sinmanga.jpg" width="100" height="120" />
+  <br>Nombre del Producto: blusa sin manga
+  <br>Descripción: este tipo de blusa se usa en tiempo de calor
+  <br>Precio: $150.00
+  <br>Existencia: 5
+  <br>Categoria: blusas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="informacionproducto2">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="conmanga.jpg" width="100" height="120" />
+  <br>Nombre del Producto: blusa con manga
+  <br>Descripción: este tipo de blusa se usa en cualquier epoca del año
+  <br>Precio: $190.00
+  <br>Existencia: 8
+  <br>Categoria: blusas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="informacionproducto3">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="contirantes.jpg" width="100" height="120" />
+  <br>Nombre del Producto: blusa con tirantes
+  <br>Descripción: este tipo de blusa se usa en tiempo de calor
+  <br>Precio: $110.00
+  <br>Existencia: 13
+  <br>Categoria: blusas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="informacionproducto4">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="noche.jpg" width="100" height="120" />
+  <br>Nombre del Producto: vestido de noche
+  <br>Descripción: este tipo se utilizan para fiestas o eventos de noche
+  <br>Precio: $650.00
+  <br>Existencia: 5
+  <br>Categoria: vestidos
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="informacionproducto5">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="corto.jpg" width="100" height="120" /> 
+  <br>Nombre del Producto: vestido corto
+  <br>Descripción: este tipo de vestido van bien en temporada de calor
+  <br>Precio: $350.00
+  <br>Existencia: 9
+  <br>Categoria: vestidos
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="informacionproducto6">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="largo.jpg" width="100" height="120" />
+  <br>Nombre del Producto: vestido largo
+  <br>Descripción: este tipo de vestido se recomienda en eventos como bodas,graduación,etc.
+  <br>Precio: $850.00
+  <br>Existencia: 3
+  <br>Categoria: vestidos
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="informacionproducto7">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="mano.jpg" width="100" height="120" />
+  <br>Nombre del Producto: bolsa de mano
+  <br>Descripción: este tipo de bolsos va bien con un estilo casual
+  <br>Precio: $480.00
+  <br>Existencia: 8
+  <br>Categoria: bolsas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="informacionproducto8">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+  <br><img src="hombro.jpg" width="100" height="120" />
+  <br>Nombre del Producto: bolsa de hombro
+  <br>Descripción: este tipo de bolsa se usa mas para un estilo sofisticado
+  <br>Precio: $620.00
+  <br>Existencia: 4
+  <br>Categoria: bolsas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="informacionproducto9">
+  <div data-role="header">
+    <h1>Información del Producto</h1>
+  </div>
+  <div data-role="content" align="center">
+   <br><img src="cruzada.jpg" width="100" height="120" />
+  <br>Nombre del Producto: bolsa cruzada
+  <br>Descripción: este tipo de bolsa va bien con un estilo juvenil o casual
+  <br>Precio: $480.00
+  <br>Existencia: 6
+  <br>Categoria: bolsas
+  <br>Fecha de registro: 20/Ene/2016
+  
+  <a href="#" data-role="button">Comprar</a> </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+
+
+<div data-role="page" id="edicionproducto">
+  <div data-role="header">
+    <h1>Edición del Producto</h1>
+  </div>
+  <div data-role="content"> Listar la info del producto
+  
+    <div data-role="controlgroup" data-type="horizontal"><a href="#" data-role="button">Guardar</a><a href="#inicio" data-role="button">Cancelar</a></div>
+  </div>
+  
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#inicio" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="acercademi">
+  <div data-role="header">
+    <h1>Acerca de mi</h1>
+  </div>
+  <div data-role="content">
+    <div align="center">
+    <br><img src="perfil.jpg" width="120" height="120" />
+      <br>Dora Alicia Rivera Bojórquez
+      <br>Lic. en Ingenieria en Sistemas de Información
+      <br>Desarrollo Aplicaciones e-commerce
+      <br>Ver peliculas, escuchar musica, etc.
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4>
+    <div data-role="navbar">
+   <ul> 
+<li> <a href="#agregarproductos" data-rel="back" data-role="button" data-icon="arrow-l">Atras</a></li>
+ <li><a href="#inicio" data-role="button" data-icon="home">Inicio</a></li>
+ <li><a href="#info" data-role="button" data-icon="info" data-rel="dialog">Info</a></li>
+ <li><a href="#info" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+ </ul>
+ </div>
+    </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="info">
+  <div data-role="header">
+    <h1>Mas Información</h1>
+  </div>
+  
+  <div data-role="content"> Aplicación desarrollada mediante PhoneGap para Proyecto Final por Alicia Rivera - Mayo 2016 <a href="#back" data-role="button">Cerrar</a> </div>
+  
+
+</div>
+
+
+
+
+</body>
+</html>
